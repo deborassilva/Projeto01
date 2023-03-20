@@ -22,11 +22,16 @@ body{
     gap: 25px;
 }
 
-.cabcelaho-menu-item{
-    font-family: Lato, Corbel, "‘Lucida Grande’", "‘Lucida Sans Unicode’", "‘DejaVu Sans’", "‘Bitstream Vera Sans’", "‘Liberation Sans’", Verdana, "‘Verdana Ref’", sans-serif;
+.cabecalho-menu-item{
+    font-family: Lato, Corbel, "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     color: black;
     font-weight: 400;
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer;    
 
 }
+
+
+
+
+
