@@ -1,0 +1,32 @@
+body{
+    background-image: url('../img/lycg-xl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.cabecalho {
+    display: flex;
+    padding: 24px;
+    text-align: center;
+}
+
+.cabecalho-imagem{
+    height: 25px;
+    }
+
+.cabecalho-menu{
+    display: flex;
+    gap: 25px;
+}
+
+.cabcelaho-menu-item{
+    font-family: Lato, Corbel, "‘Lucida Grande’", "‘Lucida Sans Unicode’", "‘DejaVu Sans’", "‘Bitstream Vera Sans’", "‘Liberation Sans’", Verdana, "‘Verdana Ref’", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+
+}
