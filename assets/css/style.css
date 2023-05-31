@@ -21,6 +21,7 @@ body{
 .cabecalho-menu{
     display: flex;
     gap: 25px;
+    position: relative;
 }
 
 .cabecalho-menu-item{
@@ -96,6 +97,38 @@ body{
     
 }
 
+.links .link-dropdown {
+display: none;
+background-color: white;
+border-radius: 10px;
+width: 180px;
+position: absolute;
+right:  -2px;
+top: 27px;
+z-index: 99;
+
+}
+
+.links .link-dropdown .list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.links .link-dropdown .Link-item {
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+
+.links .link-dropdown .Link-item:hover {
+    background-color: bisque;
+
+}
 
 
 
